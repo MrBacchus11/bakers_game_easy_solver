@@ -85,7 +85,7 @@ def read_move(move):
         return f"Move the {say_rank[move[1][0]]} of {say_suit[move[1][1]]} from the reserve to column {move[2]}."
     if move[0] == "BtB":
         if len(move[1]) > 1:
-            return f"Move the cards beggining with the {say_rank[move[1][0][0]]} of {say_suit[move[1][0][1]]} from column {move[2]} to column {move[3]}. "
+            return f"Move the cards beginning with the {say_rank[move[1][0][0]]} of {say_suit[move[1][0][1]]} from column {move[2]} to column {move[3]}. "
         else:
             return f"Move the {say_rank[move[1][0][0]]} of {say_suit[move[1][0][1]]} from column {move[2]} to column {move[3]}"
     if move[0] == "BtF":
