@@ -5,7 +5,7 @@ To enter your own board to solve (a default board is provided)
 replace the existing cards with the cards on your board using the same notation.
 (A, 2, 3, 4, 5, 6, 7, 8, 9, T, J, Q, K) for ranks.
 (H, D, C, S) for suits.
-For example, the 2 of hearts becomed "2H".
+For example, the 2 of hearts becomes "2H".
 The Ace of Spades becomes "AS".
 The 10 of Diamonds becomes "TD".
 Use the default_board.jpeg as a guide, if needed.
